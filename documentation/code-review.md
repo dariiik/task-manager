@@ -29,11 +29,9 @@ require("dotenv").config();
 - importing tasks route file and db connection. also, environment configuration with process.env. how to do that with process.env ->
 
 1. load .env file with data
-2.
-
-```js
-require("dotenv").config();
-```
+2. ```js
+   require("dotenv").config();
+   ```
 
 loads environment variables from .env intro process.env 3) process.env.data -> now you can access data specified in .env file
 
@@ -47,3 +45,7 @@ loads environment variables from .env intro process.env 3) process.env.data -> n
 ### Start the port
 
 created asynchronous function. connectDB returns promise, execution is delayed untill it responds with something (i mean success). if not return error, if success start the port.
+
+```
+
+```
