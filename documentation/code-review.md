@@ -46,6 +46,11 @@ loads environment variables from .env intro process.env 3) process.env.data -> n
 
 created asynchronous function. connectDB returns promise, execution is delayed untill it responds with something (i mean success). if not return error, if success start the port.
 
+## Mongoose Logic for error handling + how to create schemas in mongoose
+
+```js
+const TaskSchema = new mongoose.Schema({});
 ```
 
-```
+- creating a new Schema with mongoose.Schema assigning to variable TaskSchema
+- exporting as Task, the model will be referred to as task that takes all of the properties of TaskSchema
