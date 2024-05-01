@@ -54,3 +54,5 @@ const TaskSchema = new mongoose.Schema({});
 
 - creating a new Schema with mongoose.Schema assigning to variable TaskSchema
 - exporting as Task, the model will be referred to as task that takes all of the properties of TaskSchema
+
+2 types of error: if we have the correct id syntax, then return 404, id not found. but if we have incorrect id syntax like less chars or string is less than what the actual length should be, then return error 500.
